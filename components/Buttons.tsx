@@ -49,7 +49,7 @@ const Buttons = () => {
                     fontSize:20,
                     fontWeight:'bold',
                     color:'#bd8908'
-                }}>AC</Text>
+                }}>x</Text>
             </TouchableOpacity>
             <TouchableOpacity style={{
                 width:Dimensions.get('screen').width * 0.2,
@@ -66,7 +66,7 @@ const Buttons = () => {
                     fontSize:20,
                     fontWeight:'bold',
                     color:'#bd8908'
-                }}>AC</Text>
+                }}>%</Text>
             </TouchableOpacity>
             <TouchableOpacity style={{
                 width:Dimensions.get('screen').width * 0.2,
@@ -83,83 +83,7 @@ const Buttons = () => {
                     fontSize:20,
                     fontWeight:'bold',
                     color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-        </View>
-        <View style={{
-            width:'100%',
-            padding:10,
-            paddingBottom:40,
-            justifyContent:'space-around',
-            flexDirection:'row'
-        }}>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
+                }}>/</Text>
             </TouchableOpacity>
         </View>
         <View style={{
@@ -183,8 +107,42 @@ const Buttons = () => {
                 <Text style={{
                     fontSize:20,
                     fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
+                    color:'#666'
+                }}>7</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#666'
+                }}>8</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#666'
+                }}>9</Text>
             </TouchableOpacity>
             <TouchableOpacity style={{
                 width:Dimensions.get('screen').width * 0.2,
@@ -201,117 +159,7 @@ const Buttons = () => {
                     fontSize:20,
                     fontWeight:'bold',
                     color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-        </View>
-        <View style={{
-            width:'100%',
-            padding:10,
-            paddingBottom:40,
-            justifyContent:'space-around',
-            flexDirection:'row'
-        }}>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
-            </TouchableOpacity>
-            <TouchableOpacity style={{
-                width:Dimensions.get('screen').width * 0.2,
-                height:50,
-                display:'flex',
-                justifyContent:'center',
-                alignItems:'center',
-                backgroundColor:'#09e379',
-                borderRadius:7,
-                elevation:10
-
-            }}>
-                <Text style={{
-                    fontSize:20,
-                    fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
+                }}>x</Text>
             </TouchableOpacity>
         </View>
         <View style={{
@@ -335,8 +183,42 @@ const Buttons = () => {
                 <Text style={{
                     fontSize:20,
                     fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
+                    color:'#666'
+                }}>4</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#666'
+                }}>5</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#666'
+                }}>6</Text>
             </TouchableOpacity>
             <TouchableOpacity style={{
                 width:Dimensions.get('screen').width * 0.2,
@@ -353,7 +235,125 @@ const Buttons = () => {
                     fontSize:20,
                     fontWeight:'bold',
                     color:'#bd8908'
-                }}>AC</Text>
+                }}>-</Text>
+            </TouchableOpacity>
+        </View>
+        <View style={{
+            width:'100%',
+            padding:10,
+            paddingBottom:40,
+            justifyContent:'space-around',
+            flexDirection:'row'
+        }}>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#666'
+                }}>1</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#666'
+                }}>2</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#666'
+                }}>3</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#bd8908'
+                }}>+</Text>
+            </TouchableOpacity>
+        </View>
+        <View style={{
+            width:'100%',
+            padding:10,
+            paddingBottom:40,
+            justifyContent:'space-around',
+            flexDirection:'row'
+        }}>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#666'
+                }}>0</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={{
+                width:Dimensions.get('screen').width * 0.2,
+                height:50,
+                display:'flex',
+                justifyContent:'center',
+                alignItems:'center',
+                backgroundColor:'#09e379',
+                borderRadius:7,
+                elevation:10
+
+            }}>
+                <Text style={{
+                    fontSize:20,
+                    fontWeight:'bold',
+                    color:'#666'
+                }}>.</Text>
             </TouchableOpacity>
             <TouchableOpacity style={{
                 width:Dimensions.get('screen').width * 0.4,
@@ -361,16 +361,16 @@ const Buttons = () => {
                 display:'flex',
                 justifyContent:'center',
                 alignItems:'center',
-                backgroundColor:'#09e379',
+                backgroundColor:'gold',
                 borderRadius:7,
-                elevation:10
+                elevation:10,
 
             }}>
                 <Text style={{
                     fontSize:20,
                     fontWeight:'bold',
-                    color:'#bd8908'
-                }}>AC</Text>
+                    color:'#fff'
+                }}>=</Text>
             </TouchableOpacity>
         </View>
     </View>
