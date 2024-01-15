@@ -49,7 +49,7 @@ const Buttons = () => {
                     fontSize:20,
                     fontWeight:'bold',
                     color:'#bd8908'
-                }}>x</Text>
+                }}>DEL</Text>
             </TouchableOpacity>
             <TouchableOpacity style={{
                 width:Dimensions.get('screen').width * 0.2,

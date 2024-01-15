@@ -13,7 +13,7 @@ const Results = () => {
         fontSize: 100,
         marginEnd: 20,
         color: '#333'
-      }}>2376</Text>
+      }}>66</Text>
     </View>
   )
 }

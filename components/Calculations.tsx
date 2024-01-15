@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native'
+import { View, Text, TextInput } from 'react-native'
 import React from 'react'
 
 const Calculations = () => {
@@ -9,14 +9,11 @@ const Calculations = () => {
         alignItems: 'flex-end',
         justifyContent: 'center'
     }}>
-        <Text style={{
-            fontSize:30,
-            display:'flex',
-            alignItems: 'flex-end',
-            justifyContent: 'center',
-            marginEnd:20,
-            color:'#666'
-        }}>333/2</Text>
+      <TextInput style={{
+        fontSize:40,
+        color:'#666',
+        marginEnd:20
+      }} value='23+43'/>
     </View>
   )
 }
