@@ -1,7 +1,7 @@
 import { View, Text, Dimensions } from 'react-native'
 import React from 'react'
 
-const Results = () => {
+const Results = ({ resultText }) => {
   return (
     <View style={{
       flex: 2,
@@ -13,7 +13,7 @@ const Results = () => {
         fontSize: 100,
         marginEnd: 20,
         color: '#333'
-      }}>66</Text>
+      }}>{resultText}</Text>
     </View>
   )
 }

@@ -1,7 +1,7 @@
 import { View, Text, TextInput } from 'react-native'
 import React from 'react'
 
-const Calculations = () => {
+const Calculations = ({calcText}) => {
   return (
     <View style={{
         flex:1,
@@ -9,11 +9,11 @@ const Calculations = () => {
         alignItems: 'flex-end',
         justifyContent: 'center'
     }}>
-      <TextInput style={{
-        fontSize:40,
-        color:'#666',
-        marginEnd:20
-      }} value='23+43'/>
+      <Text style={{
+        fontSize: 40,
+        marginEnd: 20,
+        color: '#333'
+      }}>{calcText}</Text>
     </View>
   )
 }
