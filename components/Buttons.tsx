@@ -52,7 +52,7 @@ const Buttons = ({onButtonClick, onOperationClick}) => {
                     color:'#bd8908'
                 }}>DEL</Text>
             </TouchableOpacity>
-            <TouchableOpacity  onPress ={() => onOperationClick('%')}  style={{
+            <TouchableOpacity  onPress ={() => onButtonClick('00')}  style={{
                 width:Dimensions.get('screen').width * 0.2,
                 height:50,
                 display:'flex',
@@ -67,7 +67,7 @@ const Buttons = ({onButtonClick, onOperationClick}) => {
                     fontSize:20,
                     fontWeight:'bold',
                     color:'#bd8908'
-                }}>%</Text>
+                }}>00</Text>
             </TouchableOpacity>
             <TouchableOpacity onPress ={() => onOperationClick('/')} style={{
                 width:Dimensions.get('screen').width * 0.2,

@@ -9,11 +9,13 @@ export default function App() {
   const [resultText, setResultText] = useState("");
   const [calcText, setCalcText] = useState("");
   const Calculation = () => {
-
+    setResultText(eval(calcText));
   }
 
   const onButtonClick = (number) => {
+    let operations = ["DEL", "AC", "/", "*", "-", "+"];
     if (number == '=') {
+      if (operations.includes(calcText.toString().split("").pop())) return;
       return Calculation();
     }
     else {
@@ -24,12 +26,14 @@ export default function App() {
   const onOperationClick = (text) => {
     console.log(text);
     if (text == 'AC') {
-      setResultText("");
-      setCalcText(0);
+      setCalcText("");
+      setResultText(0);
+      return;
     }
-    else {
-      setCalcText(calcText + text);
+    if (text == 'DEL') {
+      return setCalcText(calcText.toString().substring(0, calcText.length - 1));
     }
+    setCalcText(calcText + text);
   }
 
   return (
